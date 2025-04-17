@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: antiquewhite;
+	font-family: monospace, Consolas;
+}
+
+header nav {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	margin: 1rem 0;
+}
+header nav button {
+	border-radius: 0;
+	color: antiquewhite;
+	background-color: black;
+	border: 2px solid black;
+	padding: .5rem 1rem;
+}
+header nav button:hover {
+	background-color: antiquewhite;
+	color: black;
+	cursor: pointer;
+}
+
+div#content {
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+div#content aside {
+	margin-bottom: 1rem;
+	font-style: italic;
+}
